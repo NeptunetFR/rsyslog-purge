@@ -17,18 +17,18 @@
 #    Declaration des parametres d’archivage    #
 ################################################
 
-RETENTION=7 # Duree de retention des logs (en jours)
-DESTDIR="/var/backups/syslog" # Repertoire de stockage des archives
-ARCHIVE="syslog-$(date '+%Y-%m-%d-%Hh%M').gz" # Nom des archives
+RETENTION=7                                     # Duree de retention des logs (en jours)
+DESTDIR="/var/backups/syslog"                   # Repertoire de stockage des archives
+ARCHIVE="syslog-$(date '+%Y-%m-%d-%Hh%M').gz"   # Nom des archives
 
 ################################################
 #    Declaration des parametres de database    #
 ################################################
 
-MYSQL_HOST="localhost" # Nom ou adresse IP sur serveur hebergeant la base de donnees
-MYSQL_DB="Syslog" # Nom de la base de donnees
-MYSQL_USER="rsyslog" # Utilisateur de la base de donnees
-MYSQL_PASSWD="motdepasse-user-rsyslog" # MDP de l’utilisateur precedent
+MYSQL_HOST="localhost"                          # Nom ou adresse IP sur serveur hebergeant la base de donnees
+MYSQL_DB="Syslog"                               # Nom de la base de donnees
+MYSQL_USER="rsyslog"                            # Utilisateur de la base de donnees
+MYSQL_PASSWD="motdepasse-user-rsyslog"          # MDP de l’utilisateur precedent
 
 
 ### NE PAS MODIFIER A PARTIR DE CE POINT ###
